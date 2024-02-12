@@ -1,0 +1,6 @@
+---
+import FormattedDate from "./FormattedDate.astro";
+const { pubDate, title, url } = Astro.props;
+---
+
+<li><a href={url}> <FormattedDate date={pubDate} /> - {title}</a></li>

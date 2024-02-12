@@ -30,12 +30,17 @@
   body {
     @apply text-sm leading-6 text-grey2 antialiased;
   }
-  main,
-  nav {
-    @apply m-auto max-w-[600px] p-4;
+  header {
+    @apply my-12 p-6;
+  }
+  main {
+    @apply p-6;
+  }
+  footer {
+    @apply border-t border-lightgrey p-6;
   }
   nav {
-    @apply flex gap-4;
+    @apply flex gap-6;
   }
   a:hover {
     @apply underline;
@@ -46,7 +51,7 @@
     @apply text-grey1;
   }
   p {
-    @apply mb-4;
+    @apply mb-6;
   }
   b,
   strong {
